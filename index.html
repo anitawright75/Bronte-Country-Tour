@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link rel="stylesheet" href="styles/main.css">
+	<link href="https://fonts.googleapis.com/css?family=IM+Fell+English:400i" rel="stylesheet">
+
+	<title>Brontë Country Tour</title>
+</head>
+
+<body>
+<!-- header -->
+	<header class="intro">
+		<h1>Welcome to Brontë Country</h1>
+	</header>
+
+
+<!-- guided tour section -->
+		<section class="guided-tour">
+  			<h3>Take a guided tour through Brontë country</h3>
+				<p>Follow along on a chronological tour<br>through Brontë country.<br>You will see the sites the Brontës saw<br>while growning up in West Yorkshire</p>
+				<div id='button'>
+				<button type="submit">Guided Tour</button></div>
+		</section>
+
+<!-- choose your own adventure section -->
+
+		<section class="adventure">
+			<h3 id="own">Choose your own Brontë adventure</h3>
+				<p id="choice">Forge your own path through Brontë country.<br> Learn about the part of England,<br> the Brontë sisters loved and wrote about<br> in their novels</p>
+			
+    			<div id="map">
+    				<!-- <input id="pac-input" class="controls" type="text" placeholder="Search Box"> -->
+    			</div>
+    	</section>
+
+	<footer>
+
+<!-- API key script code goes here -->
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=APIKEY&libraries=places&callback=initMap&region=GB"></script>
+<script src="scripts/bronte.js"></script>
+
+
+ </footer>
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+body {
+  background-image: url("http://i.imgur.com/kGJjux2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'IM Fell English', serif;
+  font-size: x-large;
+  text-align: right;
+
+  }
+h1 { text-align: center;
+  margin-bottom: 65px;
+  }
+
+p, h3 {
+  text-align: right;
+  margin-top: 15px;
+  margin-right: 45px;
+  font-size: larger;
+  color: black;
+  }
+  #own {
+    margin-top: 11px;
+    text-align: left;
+    color: white;
+    font-size: larger;
+  }
+  #choice {
+  margin-top: 11px;
+  text-align: left;
+  color: white;
+  font-size: larger;
+  }
+
+button {
+   border-top: 1px solid #96d1f8;
+   background: #2e3336;
+   background: -webkit-gradient(linear, left top, left bottom, from(#474d4a), to(#2e3336));
+   background: -webkit-linear-gradient(top, #474d4a, #2e3336);
+   background: -moz-linear-gradient(top, #474d4a, #2e3336);
+   background: -ms-linear-gradient(top, #474d4a, #2e3336);
+   background: -o-linear-gradient(top, #474d4a, #2e3336);
+   padding: 13px 26px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   border-radius: 15px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #0f0d0f;
+   font-size: 18px;
+   font-family: 'IM Fell English', serif, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   margin-right: 20px;
+   }
+.button:hover {
+   border-top-color: #9ea6ab;
+   background: #9ea6ab;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+}
+
+.guided-tour {
+  font-weight: bolder;
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: 100px 0 0 0;
+  border-radius: 12px;
+  text-align: center;
+  height: 300px;
+  }
+
+
+#map {
+  width: 40%;
+  height: 90%;
+  float:left;
+  margin-bottom: 8%;
+}
+
+.adventure {
+
+  font-weight: bolder;
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: 100px 0 0;
+  border-radius: 12px;
+  text-align: center;
+  height: 300px;
+  }
+
+.controls {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 300px;
+        }
+
+  #pac-input:focus {
+     border-color: #4d90fe;
+      }
+
+  .pac-container {
+        font-family: Roboto;
+      }
+
+  #type-selector {
+        color: #fff;
+        background-color: #4d90fe;
+        padding: 5px 11px 0px 11px;
+      }
+
+  #type-selector label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+      }
+  #target {
+        width: 345px;
+      }  
